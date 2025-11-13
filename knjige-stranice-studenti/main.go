@@ -13,7 +13,7 @@ func sumaStranica(knjige []int) int {
 
 func knjige(knjige []int, brStudenata int) int {
 	l := 0
-	r := sumaStranica(knjige) // smisliti normalniju vrednost
+	r := sumaStranica(knjige)
 
 	for l < r {
 		mid := l + (r-l+1)/2
